@@ -1,0 +1,19 @@
+public class TriangleArea {
+
+    // Метод для вычисления площади треугольника по основанию и высоте
+    public static double calculateArea(double base, double height) {
+        return (base * height) / 2;
+    }
+
+    public static void main(String[] args) {
+        // Пример использования метода
+        double base = 10.0;   // Основание треугольника
+        double height = 5.0;  // Высота треугольника
+
+        // Вычисляем площадь
+        double area = calculateArea(base, height);
+
+        // Выводим результат
+        System.out.println("Площадь треугольника: " + area);
+    }
+}
